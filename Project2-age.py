@@ -5,7 +5,7 @@
 
 
 print('Hello')
-user_age = input('What is your age? \n')
+user_age = input('What is your age? \n') #Age input
 print('Oh so your age is', user_age)
-years = input('Enter a number to know your age after that many years \n')
+years = input('Enter a number to know your age after that many years \n') #Age after <years>
 print('You will be', int(years)+int(user_age), 'in', years ,'years')
